@@ -1135,12 +1135,6 @@
             "url": "./files/CUSA02429_01.00.json"
         },
         {
-            "name": "战神",
-            "title": "CUSA07413",
-            "version": "01.00",
-            "url": "./files/CUSA07413_01.00.json"
-        },
-        {
             "name": "KINGDOM HEARTS - HD 1.5+2.5 ReMIX -",
             "title": "CUSA05786",
             "version": "01.04",
@@ -1331,12 +1325,6 @@
             "title": "CUSA10209",
             "version": "01.00",
             "url": "./files/CUSA10209_01.00.json"
-        },
-		        {
-            "name": "战神",
-            "title": "CUSA07413",
-            "version": "01.33",
-            "url": "./files/CUSA07413_1.33.json"
         },
         {
             "name": "刺客信条奥德赛Assassin's Creed® Odyssey",
