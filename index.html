@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html manifest="offline.cache">
+    <head>
+        <meta charset="UTF-8">
+        <title>PS4离线金手指 by Max</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="font-awesome.min.css">
+        <link rel="stylesheet" href="main.css">
+        <script>
+            //Offline Method By Kameleon...... Fucking SALT STOLE IT -_-
+            window.applicationCache.ondownloading = function()
+                    {
+                        
+                        document.getElementById("progress").innerHTML="<h3>正在缓存页面...</h3>";
+                    };
+                    
+                    window.applicationCache.onprogress = function(a)
+                    {
+                        document.getElementById("progress").style.textAlign='center';
+                        document.getElementById("progress").style.color='orange';
+                        document.getElementById("progress").innerHTML="<h3>缓存状态: "+(Math.round(100*(a.loaded/a.total)))+"% 完成</h3>";
+                    };
+                    
+                    window.applicationCache.oncached = window.applicationCache.onupdateready = function()
+                    {
+                        
+                        document.getElementById("progress").style.color='green';
+                        document.getElementById("progress").innerHTML="<h3>页面已缓存，已可以离线使用，请关闭浏览器和关闭网络!</h3>";
+                    };
+            </script>
+              <script src="js/jquery.min.js"></script>
+              <script src="js/bootstrap.js"></script>
+              <script src="js/lazyload.min.js"></script>
+              <script src="js/BigInteger.min.js"></script>
+              <script src="js/loadingoverlay.min.js"></script>
+              <script src="js/main.js"></script>
+
+              
+		
+            </head>
+        <body class="bg-darker"><br>
+        <div id="progress" style="color:white; align-content: center;"></div>
+        <br>
+        <h1 style='font-size:20px;text-align:center;color:white'>PS4 离线金手指(TylerMods)更新 2022-03-02</h1>
+        <h1 style='font-size:20px;text-align:center;color:white'>需要使用PC启动服务，或者放在路由器上启动web服务，缓存后可以关闭</h1>
+        <h1 style='font-size:20px;text-align:center;color:white'>更新缓存需要三清</h1>
+        <h1 style='font-size:20px;text-align:center;color:green'>内容修改 By Max 除我写的其除金手指代码来自http://ps4trainer.com/，感谢各位作者!!!</h1>
+        
+        <button onclick="topFunction()" id="myBtn" class="top" title="Go to top">顶部</button>
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+        <div class="jumbotron transparent" style="margin: auto;height: 50%; width: 50%; border-radius: 10px; border: 5px black solid; border-color: yellow; background-position: center;background-repeat: no-repeat; background-size: 100%;backdrop-filter: blur(10px);">
+            <div class="d-flex justify-content-center">
+                    <input id="ip" class="form-control" type="text" placeholder="127.0.0.1 or PS4IP" style="max-width :320px">
+            </div>
+            <p></p>
+            <div class="d-flex justify-content-center">
+                <input class="form-control" id="search-input" type="text" placeholder="搜索游戏..." style="max-width :280px">
+                <button id="search-button" class="btn btn-primary" style="color: white;" ><img src="images/search-icon.png" width="16px" height="16px"/></button>
+
+            </div>
+            <p></p>
+            <div class="d-flex justify-content-center btn-toolbar">
+                <button class="btn btn-primary mr-2" data-toggle="modal" data-target="#credits-dialog">感谢</button>
+                <button class="btn btn-primary ml-2" data-toggle="modal" data-target="#instructions-dialog">使用指南</button>
+                <button class="btn btn-primary ml-2" data-toggle="modal" data-target="#tips-dialog">注意</button>
+            </div>
+        </div>
+        <div class="modal fade" id="credits-dialog">
+            <div class="modal-dialog" id="credits-dialog-size">
+                <div class="modal-content">
+                    <div class="modal-header bg-darker">
+                        <h4 class="modal-title">感谢</h4>
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                    </div>
+                    <div class="modal-body">
+                        <a href="https://github.com/maximaqiu" target="_blank">maximaqiu</a><br>
+                        <a href="https://github.com/jogolden" target="_blank">golden</a><br>
+                        <a href="https://github.com/ChendoChap/" target="_blank">ChendoChap<br>
+                        <a href="https://twitter.com/TylerMods" target="_blank">TylerMods</a><br>
+                        <a href="https://github.com/LightningMods" target="_blank">LightningMods</a><br>
+                        <a href="https://twitter.com/KameleonRe" target="_blank">KameleonRE</a><br>
+                        </div>
+                </div>
+            </div>
+        </div>
+		        <div class="modal fade" id="tips-dialog">
+            <div class="modal-dialog" id="tips-dialog-size">
+                <div class="modal-content">
+                    <div class="modal-header bg-darker">
+                        <h4 class="modal-title">注意事项</h4>
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>往日不再金手指问题 |Infinite Ammo and/or Infinite Bandages|请注意，这可能会导致制作莫洛托夫的问题。但是......如果你不能制作它们，陷入陷阱，它会解决这个问题。</p></br>
+						<p>如果您在购买时看到增加诸如金钱之类的价值的作弊，请在您的钱变负之前禁用作弊。</p>
+                        
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="instructions-dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-darker">
+                        <h4 class="modal-title">金手指使用指南</h4>
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                    </div>
+                    <div class="modal-body">
+                        1)破解使用 HEN / GOLDHEN / MIRA<br>
+                        2)跟据自己的系统版本注入WebRTE payload。<br>
+                        3)PS4打开浏览器缓存此页面的修改文件。<br>
+                        4)等待缓存100%成功后关闭浏览器并重新打开。<br>
+                        5)运行你想玩的游戏<br>
+                        6)点击你的浏览金手指（金手指需要CUSA和版本相同即可）。<br>
+                        7)如果看到提示"Trainer Attached。",你将可以使用金手指。<br>
+                        8)推荐放在路由器的web服务上，方便日后增加金手指文件!<br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div id="container" class="center-block d-flex flex-wrap justify-content-center" style="padding-bottom: 5%; padding-top: 5%;background-size: 100%;background-repeat: no-repeat;margin: auto;height: 90%; width: 90%; border-radius: 10px; border: 5px black solid; border-color: yellow; background-position: center;backdrop-filter: blur(10px);">
+
+        </div>
+        <div id="trainer-dialog" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="d-flex flex-wrap rounded m-1 bg-darker"  style="min-height: 128px;">
+                            <div class="bg-black">
+                                <img id="cover" class="coverholder m-1 rounded lazy" onerror="if (this.src !== 'images/error.png') this.src = 'images/error.png';" style="width :118px">
+                            </div>
+                            <div class="GInfo bg-black">
+                                <h5><small id="game"></small></h5>
+                                <h5><small id="cusa"></small></h5>
+                                <h5><small id="version"></small></h5>
+                                <h5><small id="credits" class="font-weight-light"></small></h5>
+                            </div>
+                        </div>
+                        <div id="mods">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <h6 class="mr-auto">Status : <small id="Message" class=" font-weight-light"></small></h6>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

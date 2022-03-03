@@ -1,0 +1,87 @@
+{
+    "name": "人中之龙5",
+    "id": "CUSA15263",
+    "version": "01.01",
+    "process": "eboot.bin",
+    "mods": [
+        {
+            "name": "钱最大",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "7082FF",
+                    "on": "90909090",
+                    "off": "440F4EF8"
+                }
+            ]
+        },
+        {
+            "name": "武器耐久不减",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "7065C3",
+                    "on": "9090909090",
+                    "off": "C4E270F2C0"
+                }
+            ]
+        },
+        {
+            "name": "技能点无限",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "703C26",
+                    "on": "B863000000EB02",
+                    "off": "3DE70300007202"
+                }
+            ]
+        },
+        {
+            "name": "极无限",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "79E1A7",
+                    "on": "C5FA11481C",
+                    "off": "C5FA11401C"
+                }
+            ]
+        },
+        {
+            "name": "4倍经验值",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "144B160",
+                    "on": "B8287B020049C1E602E91A8A2BFF",
+                    "off": "0000000000000000000000000000"
+                }, 
+                            {
+                    "offset": "703B83",
+                    "on": "E9D875D400",
+                    "off": "B8287B0200"
+                }
+            ]
+        },
+        {
+            "name": "武器熟练度每次加501",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "144B170",
+                    "on": "418B4C864081C1F4010000E9FC8A2BFF",
+                    "off": "00000000000000000000000000000000"
+                }, 
+                                {
+                    "offset": "703C77",
+                    "on": "E9F474D400",
+                    "off": "418B4C8640"
+                }
+            ]
+        }
+    ],
+    "credits": [
+        "max"
+    ]
+}

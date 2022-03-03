@@ -1,0 +1,84 @@
+{
+	"name": "DRAGON BALL Z: KAKAROT 3CA10",
+	"id": "CUSA14835",
+	"version": "01.10",
+	"process": "eboot.bin",
+	"mods": [{
+		"name": "HP最大",
+		"type": "checkbox",
+		"memory": [{
+			"offset": "A4C61F",
+			"on": "909090909090",
+			"off": "898158020000"
+		}]
+	}, {
+		"name": "INF Max 气",
+		"type": "checkbox",
+		"memory": [{
+			"offset": "A4C65F",
+			"on": "909090909090",
+			"off": "89815C020000"
+		}]
+	},{
+		"name": "干劲最大",
+		"type": "checkbox",
+		"memory": [{
+			"offset": "9D14B7",
+			"on": "90909090",
+			"off": "410F4EC7"
+		}]
+	}, {
+		"name": "获取经验后等级最大",
+		"type": "checkbox",
+		"memory": [{
+			"offset": "A4CAF0",
+			"on": "89DA90909090",
+			"off": "8B9150020000"
+		}]
+	}, {
+		"name": "获取4倍经验值（不能与等级最大一起用）",
+		"type": "checkbox",
+		"memory": [{
+			"offset": "A4CB5B",
+			"on": "E9706A1406",
+			"off": "1B8FFC99A3B"
+		}, {
+			"offset": "6B935D0",
+			"on": "B8FFC99A3B41C1E702E97D95EBF9",
+			"off": "0000000000000000000000000000"
+		}]
+	},{
+		"name": "items Incressed ",
+		"type": "checkbox",
+		"memory": [{
+			"offset": "D7CAE2",
+			"on": "4401EA",
+			"off": "4429EA"
+		}]
+	},{
+		"name": "索尼币最大化",
+		"type": "checkbox",
+		"memory": [{
+			"offset": "D7A86C",
+			"on": "909090",
+			"off": "0F4CD1"
+		}]
+	},{
+		"name": "道具获取最大",
+		"type": "checkbox",
+		"memory": [{
+			"offset": "D7BEF0",
+			"on": "90909090",
+			"off": "440F4CE9"
+		}]
+	}, {
+		"name": "Z珠获取最大",
+		"type": "checkbox",
+		"memory": [{
+			"offset": "145AE85",
+			"on": "909090",
+			"off": "0F4CC8"
+		}]
+	}],
+	"credits": ["max"]
+}

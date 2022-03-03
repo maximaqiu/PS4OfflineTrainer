@@ -1,0 +1,168 @@
+{
+    "name": "破晓传说",
+    "id": "CUSA17088",
+    "version": "01.04",
+    "process": "eboot.bin",
+    "mods": [
+        {
+            "name": "4倍经验值",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "511E270",
+                    "on": "C1E0028983F0030000E9ACA8FBFC",
+                    "off": "0000000000000000000000000000"
+                },
+                {
+                    "offset": "20D8B24",
+                    "on": "E94757040390",
+                    "off": "8983F0030000"
+                }
+            ]
+        },
+        {
+            "name": "金钱获取最大",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "1E1F879",
+                    "on": "90909090",
+                    "off": "410F4CCC"
+                }
+            ]
+        },
+        {
+            "name": "CP不减",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "18C3735",
+                    "on": "90909090",
+                    "off": "410F4FD6"
+                }
+            ]
+        },
+        {
+            "name": "技术count最大",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "1A89DDF",
+                    "on": "90909090",
+                    "off": "410F4CDE"
+                }
+            ]
+        },
+        {
+            "name": "AG不减",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "1970F59",
+                    "on": "C5FA1045EC90",
+                    "off": "C4E3714AC200"
+                }
+            ]
+        },
+        {
+            "name": "技能使用后熟练度最大",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "19F4427",
+                    "on": "C5F210C1",
+                    "off": "C5FA5800"
+                }, 
+                                {
+                    "offset": "19F4477",
+                    "on": "C5FA5F05351ACC03",
+                    "off": "C5FA5D05351ACC03"
+                }, 
+                                {
+                    "offset": "19F44BF",
+                    "on": "C5FA5F05ED19CC03",
+                    "off": "C5FA5D05ED19CC03"
+                }
+            ]
+        },
+        {
+            "name": "SP获取最大",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "1A667BB",
+                    "on": "4489D290",
+                    "off": "410F4DD2"
+                }
+            ]
+        },
+        {
+            "name": "快速强化饰物",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "229BD65",
+                    "on": "014A28",
+                    "off": "014228"
+                }
+            ]
+        },
+        {
+            "name": "料理时间不减",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "1E7710E",
+                    "on": "9090909090",
+                    "off": "C5FA5C459C"
+                }
+            ]
+        },
+        {
+            "name": "道具获取98",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "511E2A0",
+                    "on": "41B6624C8D64C808E9FA8DA4FC",
+                    "off": "00000000000000000000000000"
+                },
+                {
+                    "offset": "1B67074",
+                    "on": "E927725B03",
+                    "off": "4C8D64C808"
+                }
+            ]
+        },
+        {
+            "name": "物品素材(不能与物品99共用)",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "511E280",
+                    "on": "4C8D64C8084180F808750841B660E9148EA4FC4180F8280F850A8EA4FC41B614E9028EA4FC",
+                    "off": "00000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "1B67074",
+                    "on": "E907725B03",
+                    "off": "4C8D64C808"
+                }
+            ]
+        },
+        {
+            "name": "增强攻击持续",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "1A88A24",
+                    "on": "C5FA5F0584D5C203",
+                    "off": "C5FA5D0584D5C203"
+                }
+            ]
+        }
+    ],
+    "credits": [
+        "max"
+    ]
+}

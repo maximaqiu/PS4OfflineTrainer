@@ -1,0 +1,107 @@
+{
+  "name": "龙珠",
+  "id": "CUSA14614",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "获取经验值4倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5848C00",
+          "on": "C1E6024889C74489F2E9EE4175FB",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "F9CDF6",
+          "on": "E905BE8A0490",
+          "off": "4889C74489F2"
+        }
+      ]
+    },
+    {
+      "name": "获取经验值16倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5848C00",
+          "on": "C1E6044889C74489F2E9EE4175FB",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "F9CDF6",
+          "on": "E905BE8A0490",
+          "off": "4889C74489F2"
+        }
+      ]
+    },
+    {
+      "name": "气不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3B6FF",
+          "on": "909090909090",
+          "off": "89816C020000"
+        }
+      ]
+    },
+    {
+      "name": "干劲最大",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ABB947",
+          "on": "90909090",
+          "off": "410F4EC7"
+        }
+      ]
+    },
+    {
+      "name": "HP不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3B69F",
+          "on": "909090909090",
+          "off": "898168020000"
+        }
+      ]
+    },
+    {
+      "name": "获取索尼币最大",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1BCA523",
+          "on": "909090",
+          "off": "0F4CCB"
+        }
+      ]
+    },
+    {
+      "name": "z珠获取最大",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "164BDCD",
+          "on": "909090",
+          "off": "0F4CC8"
+        }
+      ]
+    },
+    {
+      "name": "道具获取最大",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EB9C46",
+          "on": "8930",
+          "off": "8908"
+        }
+      ]
+    }
+  ],
+  "credits": "max"
+}

@@ -1,0 +1,76 @@
+{
+    "name": "硬核机甲",
+    "id": "CUSA16873",
+    "version": "01.02",
+    "process": "eboot.bin",
+    "mods": [
+        {
+            "name": "子弹不减",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "434A4C",
+                    "on": "9090",
+                    "off": "FFCE"
+                }
+            ]
+        },
+        {
+            "name": "boost无限",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "6037D4",
+                    "on": "C5FA119304020000",
+                    "off": "C5FA118304020000"
+                }, 
+                {
+                    "offset": "60360C",
+                    "on": "9090909090",
+                    "off": "C5FA5C45DC"
+                }
+            ]
+        },
+        {
+            "name": "获取金币最大",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "35C6BC0",
+                    "on": "C743307F9698004C89F7E9BD79D2FC",
+                    "off": "000000000000000000000000000000"
+                }, 
+                {
+                    "offset": "2EE585",
+                    "on": "E936862D039090",
+                    "off": "44016B304C89F7"
+                }
+            ]
+        },
+        {
+            "name": "怒最大",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "5FCE5B",
+                    "on": "C4C17A119650030000",
+                    "off": "C4C17A118650030000"
+                }
+            ]
+        },
+        {
+            "name": "散弹不减",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "6210AA",
+                    "on": "8D3090",
+                    "off": "8D70FF"
+                }
+            ]
+        }
+    ],
+    "credits": [
+        "max"
+    ]
+}

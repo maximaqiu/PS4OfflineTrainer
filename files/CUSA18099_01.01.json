@@ -1,0 +1,99 @@
+{
+    "name": "伊苏9-怪人之夜",
+    "id": "CUSA18099",
+    "version": "01.01",
+    "process": "eboot.bin",
+    "mods": [
+        {
+            "name": "钱最大",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "32435B",
+                    "on": "89C890",
+                    "off": "0F46C8"
+                }
+            ]
+        },
+        {
+            "name": "SP无限使用",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "279E68",
+                    "on": "909090",
+                    "off": "4429EB"
+                }
+            ]
+        },
+        {
+            "name": "技能快速升级",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "279C11",
+                    "on": "89CA90",
+                    "off": "0F4CCA"
+                }
+            ]
+        },
+        {
+            "name": "经验快速加满",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "2FED04",
+                    "on": "C5FA100574C02000",
+                    "off": "0F4CCA"
+                }
+            ]
+        },
+        {
+            "name": "无限二段跳",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "2750F4",
+                    "on": "C80F96",
+                    "off": "c80f97"
+                }
+            ]
+        },
+        {
+            "name": "HP不减",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "2606E6",
+                    "on": "C5FA1083FC1C0000C5FA1183001D0000EB0F",
+                    "off": "C5FA1083001D0000C5F82E054EA62A00730F"
+                }
+            ]
+        },
+        {
+            "name": "异能无限使用",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "242740",
+                    "on": "01D1",
+                    "off": "01CA"
+                }
+            ]
+        },
+        {
+            "name": "道具获取最大",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "30BDD2",
+                    "on": "8D48FF",
+                    "off": "8D4B01"
+                }
+            ]
+        }
+    ],
+    "credits": [
+        "max"
+    ]
+}
