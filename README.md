@@ -3,11 +3,11 @@
 本项目forked from kmeps4/PS4OfflineTrainer
 
 ## 特点
-* 可缓存，缓存后可脱理网络只需要在PS4上操作
-* 支持自定代码
+* 可缓存，缓存后可脱离网络仅在PS4上操作
+* 支持自定修改代码
 * 支持自行添加金手指
 * 支持金手指开关功能
-* 支持PC部署，服务器部署
+* 支持PC部署、服务器部署、路由器部署
 * 支持手机，PC，PS4上启动金手指
 
 ## 使用方法
@@ -99,3 +99,4 @@
 * TylerMods
 * LightningMods
 * KameleonRE
+* Leeful
