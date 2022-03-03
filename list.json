@@ -3034,13 +3034,13 @@
            "name":"Bloody Zombies",
            "title":"CUSA08543",
            "version":"01.00",
-           "url":"CUSA08543_01.00.json"
+           "url":"./files/CUSA08543_01.00.json"
         },
         {
            "name":"Gene Rain : Wind Tower",
            "title":"CUSA13228",
            "version":"01.06",
-           "url":"CUSA13228_01.06.json"
+           "url":"./files/CUSA13228_01.06.json"
         },
         {
             "name":"Asterix & Obelix XXL3",
