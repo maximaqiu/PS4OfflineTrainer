@@ -1,0 +1,52 @@
+{
+  "name": "DEAD OR ALIVE Xtreme 3 Scarlet",
+  "id": "CUSA14173",
+  "version": "01.08",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "300万",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "793780",
+          "on": "0F49CFC74058C0C62D00E905ACBFFF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "38E38E",
+          "on": "E9ED53400090",
+          "off": "0F49CF894858"
+        }
+      ]
+    },
+    {
+      "name": "好感最大",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3E1547",
+          "on": "89C890",
+          "off": "0F4FC1"
+        }
+      ]
+    },
+    {
+      "name": "exp 16倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "793790",
+          "on": "C1E00401016685DBE923BBC4FF",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "3DF2BB",
+          "on": "E9D0443B00",
+          "off": "01016685DB"
+        }
+      ]
+    }
+  ],
+  "credits": "max"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "情热传说",
+  "id": "CUSA02935",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "特技变动次数MAX",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7c6cca",
+          "on": "909090",
+          "off": "0F4EFE"
+        }
+      ]
+    },
+    {
+      "name": "BG变动MAX",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7dfc13",
+          "on": "909090",
+          "off": "0F4EF2"
+        }
+      ]
+    },
+    {
+      "name": "BG不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7ce5d3",
+          "on": "9090",
+          "off": "29DE"
+        }, 
+        {
+          "offset": "7c74db",
+          "on": "9090",
+          "off": "FFCF"
+        }
+      ]
+    },
+    {
+      "name": "战后200级",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "88a358",
+          "on": "909090BAFFE0F505",
+          "off": "BAFFE0F5050F4ED1"
+        }
+      ]
+    }
+  ],
+  "credits": "max"
+}
