@@ -1,5 +1,5 @@
 # EOL
-最新的glodhen已支持金手指功能，此项目已没有存在的必要
+最新的glodhen已支持金手指功能，此项目已没有必要再更新
 # PS4离线金手指
 可以使用缓存将金手指缓存在PS4上，实现无PC无网络的离线金手指功能
 本项目forked from kmeps4/PS4OfflineTrainer
